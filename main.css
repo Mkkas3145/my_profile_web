@@ -25,6 +25,7 @@ media-loading > *:nth-child(1) {
 
 body {
     margin: 0px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .header_space {
