@@ -181,7 +181,7 @@ main {
     border: solid 1px #eeeeee; border-radius: 10px;
     margin-top: 20px; overflow: hidden;
 }
-.main_project_items > *:not(:first-child) > div {
+.main_project_items > *:not(:first-child) {
     border-top: solid 1px #eeeeee;
 }
 .main_project_item {
