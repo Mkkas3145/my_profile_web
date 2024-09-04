@@ -1,0 +1,227 @@
+
+* {
+    font-family: "Pretendard";
+}
+
+body {
+    margin: 0px;
+}
+
+.header_space {
+    width: 100%; height: max-content;
+    aspect-ratio: 4 / 1;
+}
+header {
+    width: 100%; height: max-content;
+    position: fixed; top: 0px;
+    aspect-ratio: 4 / 1;
+}
+header img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+
+main {
+    background-color: #ffffff;
+    display: flex; justify-content: center;
+    position: relative;
+}
+.main_inner {
+    width: 100%; height: max-content;
+    max-width: 900px; padding: 20px;
+    box-sizing: border-box;
+}
+.main_profile {
+    width: 100%; height: max-content;
+    display: flex;
+}
+.main_profile_left {
+    width: 100px; height: 100px;
+    border-radius: 50%; overflow: hidden;
+    margin-right: 20px;
+}
+.main_profile_left img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.main_profile_center {
+    width: calc(100% - 180px); height: max-content;
+}
+.main_profile_center_title {
+    width: 100%; height: max-content;
+    font-size: 24px; font-weight: bold;
+    overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main_profile_center_tags {
+    width: 100%; height: max-content;
+    display: flex; flex-wrap: wrap;
+    margin-top: 5px; gap: 10px;
+}
+.main_profile_center_tags_item {
+    font-size: 14px; color: #606060;
+    display: flex; align-items: center;
+}
+.main_profile_center_tags_item span {
+    width: 20px; height: 20px;
+    display: flex; justify-content: center;
+    background-color: #eeeeee; border-radius: 50%;
+    align-items: center; margin-right: 5px;
+}
+.main_profile_center_tags_item span svg {
+    width: 50%; height: 50%;
+    fill: #606060;
+}
+.main_profile_center_description {
+    width: 100%; height: max-content;
+    margin-top: 10px; font-size: 14px;
+    line-height: calc(14px * 1.5);
+    color: #606060;
+}
+.main_profile_right {
+    width: 40px; height: max-content;
+    display: flex; flex-direction: column;
+    gap: 10px;
+}
+.main_profile_right_item {
+    width: 40px; height: 40px;
+    border: solid 1px #eeeeee;
+    margin-left: 20px; border-radius: 50%;
+    display: flex; justify-content: center;
+    align-items: center; cursor: pointer;
+}
+.main_profile_right_item svg {
+    width: 50%; height: 50%;
+}
+
+.main_title {
+    width: 100%; height: max-content;
+    font-size: 24px; font-weight: bold;
+    display: flex;
+}
+.main_title span {
+    width: 5px; height: auto;
+    background-color: #000000;
+    display: block; margin-right: 10px;
+    border-radius: 5px;
+}
+
+.main_stack {
+    width: 100%; height: max-content;
+    margin-top: 20px;
+}
+.main_stack_items {
+    width: 100%; height: max-content;
+    border: solid 1px #eeeeee; border-radius: 10px;
+    margin-top: 20px; overflow: hidden;
+}
+.main_stack_items > *:not(:first-child) > div {
+    border-top: solid 1px #eeeeee;
+}
+.main_stack_item {
+    width: 100%; height: max-content;
+    padding: 15px 20px; box-sizing: border-box;
+    display: flex; align-items: center;
+    cursor: pointer;
+}
+.main_stack_item_left {
+    width: 30px; height: 30px;
+    margin-right: 20px;
+}
+.main_stack_item_left svg {
+    width: 100%; height: 100%;
+}
+.main_stack_item_center {
+    width: calc(100% - 85px); height: max-content;
+}
+.main_stack_item_center_title {
+    width: 100%; height: max-content;
+    font-size: 16px; font-weight: bold;
+}
+.main_stack_item_center_description {
+    width: 100%; height: max-content;
+    font-size: 14px; color: #606060;
+    line-height: calc(14px * 1.5);
+    margin-top: 3px;
+}
+.main_stack_item_right {
+    width: 15px; height: 15px;
+    margin-left: 20px; opacity: 0.5;
+}
+.main_stack_item_right svg {
+    width: 100%; height: 100%;
+}
+
+.main_project {
+    width: 100%; height: max-content;
+    margin-top: 20px;
+}
+.main_project_items {
+    width: 100%; height: max-content;
+    border: solid 1px #eeeeee; border-radius: 10px;
+    margin-top: 20px; overflow: hidden;
+}
+.main_project_items > *:not(:first-child) > div {
+    border-top: solid 1px #eeeeee;
+}
+.main_project_item {
+    width: 100%; height: max-content;
+    padding: 20px; box-sizing: border-box;
+    display: flex;
+}
+.main_project_item_left {
+    width: 60px; height: 60px;
+    background-color: #eeeeee;
+    border-radius: 50%; display: flex;
+    justify-content: center; align-items: center;
+    margin-right: 20px;
+}
+.main_project_item_left svg {
+    width: 50%; height: 50%;
+}
+.main_project_item_right {
+    width: calc(100% - 80px); height: max-content;
+}
+.main_project_item_right_title {
+    width: 100%; height: max-content;
+    font-size: 18px; font-weight: bold;
+    cursor: pointer; max-width: max-content;
+    display: flex; align-items: center;
+}
+.main_project_item_right_title svg {
+    width: 15px; height: 15px;
+    margin-left: 5px;
+}
+.main_project_item_right_title:hover {
+    text-decoration: underline;
+}
+.main_project_item_right_description {
+    width: 100%; height: max-content;
+    font-size: 14px; color: #606060;
+    line-height: calc(14px * 1.5);
+    margin-top: 5px;
+}
+.main_project_item_right_description > div {
+    display: flex;
+}
+.main_project_item_right_description > div > span {
+    width: 14px; height: 14px; margin-right: 5px;
+    margin-top: 2px;
+}
+.main_project_item_right_description > div > span svg {
+    width: 100%; height: 100%;
+    fill: #0099ff;
+}
+.main_project_item_right_description > p {
+    display: flex; margin: 0px;
+    background-color: #eeeeee;
+    padding: 5px 10px; border-radius: 5px;
+    border-left: solid 5px #dddddd;
+    max-width: max-content;
+}
+.main_project_item_right_description > div > button {
+    display: flex; margin: 0px;
+    background-color: #eeeeee;
+    outline: none; border: none;
+    padding: 8px 12px; border-radius: 5px;
+}
