@@ -7,7 +7,7 @@ class RipplesEvent {
         "fadeOutDuration": 0.2,                     // 리플 효과가 끝난 뒤, 사라지는 시간
         "touchDelay": 0.1,                          // 스크롤 동작을 구분하기 위해 기다리는 시간
         "color": "#000000",                         // 리플 효과 색상
-        "opacity": 0.5,                             // 리플 효과 불투명도
+        "opacity": 0.2,                             // 리플 효과 불투명도
         "blur": 10,                                 // 리플 효과 흐릿함 정도 (px)
         "lowerScale": 0.2,                          // 시작 시, 진행 상황
         "upperScale": 1,                            // 끝날 시, 진행 상황
@@ -137,7 +137,7 @@ class LightHoverEvent {
         "fadeInDuration": 0.2,      // 호버 효과가 나타나는 시간
         "fadeOutDuration": 0.2,     // 호버 효과가 끝난 뒤, 사라지는 시간
         "color": "#000000",         // 호버 효과 색상
-        "opacity": 0.2,             // 호버 효과 불투명도
+        "opacity": 0.1,             // 호버 효과 불투명도
         "scale": 1                  // 호버 효과 크기
     }
 
